@@ -2,6 +2,12 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
+if setclipboard then
+    setclipboard("https://discord.gg/HaHYKVqc7")
+elseif toclipboard then
+    toclipboard("https://discord.gg/HaHYKVqc7")
+end
+
 local bloxFruitsIds = {100117331123089, 79091703265657, 85211729168715}
 local scriptUrl = ""
 
